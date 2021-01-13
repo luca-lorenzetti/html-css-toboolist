@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+background-color: #f6f8f9;
+}
+
+header{
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+header *{
+    vertical-align: middle;
+    margin-top: 10px;
+}
+header img{
+    margin-left: 20px;
+}
+header h1{
+    margin-left: 10px;
+}
+
+h1{
+    display: inline-block;
+}
+
+main{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.buttons-box{
+    margin-top: 100px;
+    margin-bottom: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+    padding: 15px 0px 10px 55px; 
+}
+
+.buttons-box button{
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+#add-task{
+    background-color: #47adf1;
+    color: #fff;
+    border: 1px solid #47adf1;
+    box-shadow: none;
+}
+
+#add-selection{
+    background-color: #fff;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.tasks{
+    background-color: #fff;
+    padding-top: 10px;
+}
+.tasks h2{
+    padding: 20px 0px 0px 45px;
+}
+.arrow{
+    margin-right: -5px;
+
+}
+ul{
+    list-style: none;  
+    color: #444851;
+    
+}
+.title-list{
+    color: #444851;
+    margin-bottom: 10px;
+}
+ul span{
+    font-size: 11px;
+}
+li{
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.true-false{
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 100%;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+.true{
+    color: #6ac3ae;
+    border: 1px solid #6ac3ae;
+    border-color: #6ac3ae;
+}
+.false{
+    color: #eb5952;
+    border: 1px solid #eb5952;
+    border-color: #eb5952;
+}
+.tag{
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    font-size: 9px;
+}
+
+.editorial{
+    background-color: #45abea;
+}
+.q1-goals{
+    background-color: #9c72e4;
+}
+.recruiting{
+    background-color: #64c0a9;
+}
+.website{
+    background-color: #d863a1;
+}
+.mobile{
+    background-color: #f29e33;
+}
+.sales{
+    background-color: #b0c926;
+}
